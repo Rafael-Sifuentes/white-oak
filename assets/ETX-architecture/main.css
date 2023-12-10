@@ -372,7 +372,8 @@ button {
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  justify-content: initial;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 

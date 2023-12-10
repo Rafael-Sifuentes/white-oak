@@ -56,9 +56,9 @@ window.addEventListener('scroll', scrollActive)
         openAboutPopup('about-popup-2');
     });
 
-    document.getElementById('about-3').addEventListener('click', function () {
-        openAboutPopup('about-popup-3');
-    });
+    // document.getElementById('about-3').addEventListener('click', function () {
+    //     openAboutPopup('about-popup-3');
+    // });
 
     document.getElementById('about-4').addEventListener('click', function () {
         openAboutPopup('about-popup-4');
@@ -73,9 +73,9 @@ window.addEventListener('scroll', scrollActive)
         closeAboutPopup('about-popup-2');
     });
 
-    document.getElementById('about-close-3').addEventListener('click', function () {
-        closeAboutPopup('about-popup-3');
-    });
+    // document.getElementById('about-close-3').addEventListener('click', function () {
+    //     closeAboutPopup('about-popup-3');
+    // });
 
     document.getElementById('about-close-4').addEventListener('click', function () {
         closeAboutPopup('about-popup-4');
